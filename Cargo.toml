@@ -1,0 +1,12 @@
+[package]
+name = "lowline"
+version = "0.1.0"
+authors = ["Dave Hall <dave@etianen.com>"]
+edition = "2018"
+description = "A more efficient Cow<str> and Vec<Cow<str>>."
+
+[dependencies]
+serde = { version = "1.0.124", default-features = false, optional = true }
+
+[dev-dependencies]
+serde_json = "1.0.64"
